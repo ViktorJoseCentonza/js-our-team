@@ -1,7 +1,9 @@
+/* #region common */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: xx-large;
 }
 
 :root {
@@ -13,8 +15,37 @@
 
 main {
     background-color: var(--secondary-color);
+    margin: auto;
+    width: 90%;
 }
 
-h1 {
-    color: var(--primary-color);
+
+
+/* #endregion common */
+
+
+
+
+/* #region jumbotron */
+#jumbotron {
+    text-align: center;
+
+    h1 {
+        font-size: 1.5rem;
+        padding: 2.5rem;
+        color: var(--primary-color);
+    }
+
+    p {
+        padding-bottom: 2.5rem;
+    }
 }
+
+/* #endregion jumbotron */
+
+
+
+
+/* #region cards */
+
+/* #endregion cards */
