@@ -108,7 +108,9 @@ a {
         .card-content {
             flex-direction: column;
             justify-content: space-evenly;
-            gap: 0.75rem;
+            font-size: larger;
+
+            padding: 0 1rem;
 
             a {
                 color: var(--hyper-color);

@@ -50,7 +50,7 @@ for (let i = 0; i < teamMembers.length; i++) {
                         <img src="${teamMembers[i].img}" alt="">
                     </div>
                     <div class="card-content d-flex">
-                        <h2>${teamMembers[i].name}</h2>
+                        <h3>${teamMembers[i].name}</h3>
                         <p>${teamMembers[i].role}</p>
                         <a href="#">${teamMembers[i].email}</a>
                     </div>
