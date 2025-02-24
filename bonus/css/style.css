@@ -1,0 +1,122 @@
+/* #region common */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(255, 43, 89);
+    --secondary-color: white;
+    --card-background-color: black;
+    --hyper-color: rgb(48, 194, 252);
+}
+
+main {
+
+    background-color: var(--secondary-color);
+    margin: auto;
+    width: 90%;
+}
+
+img {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+/* #region debug */
+.debug {
+    * {
+        background-color: darkcyan;
+        border: 2px dotted black;
+
+        .card {
+            background-color: grey;
+
+            .img-container {
+                background-color: orange;
+            }
+
+            .card-content {
+                background-color: pink;
+
+                * {
+                    background-color: blueviolet;
+                }
+            }
+        }
+    }
+}
+
+/* #endregion debug */
+
+/* #endregion common */
+
+
+
+
+/* #region jumbotron */
+#jumbotron {
+    font-size: x-large;
+    text-align: center;
+
+    h1 {
+        font-size: 3rem;
+        padding: 2.5rem;
+        color: var(--primary-color);
+    }
+
+    p {
+        padding-bottom: 2.5rem;
+    }
+}
+
+/* #endregion jumbotron */
+
+
+
+
+/* #region cards */
+#cards {
+
+    color: var(--secondary-color);
+
+    .card {
+        background-color: var(--card-background-color);
+        height: 125px;
+        width: 550px;
+        margin-bottom: 2.5rem;
+
+        .img-container {
+            width: fit-content;
+        }
+
+        .card-content {
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-size: larger;
+
+            padding: 0 1rem;
+
+            a {
+                color: var(--hyper-color);
+            }
+        }
+    }
+}
+
+/* #endregion cards */
